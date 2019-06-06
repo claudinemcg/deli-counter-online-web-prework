@@ -24,8 +24,8 @@ def take_a_number(array, name)
   if array.length >=1
     array.each_with_index do |name, index|
      message = "Welcome, #{name}. You are number #{index+1} in line."
-     new_array << message
+     #new_array << message
     end
-    puts new_array.join("")
+    #puts new_array.join("")
   end
 end
