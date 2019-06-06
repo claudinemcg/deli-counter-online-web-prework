@@ -21,5 +21,5 @@ end
 def take_a_number(array, name)
   new_array = []
   array << name
-  puts "Welcome #{name}. You are number #{array.index(name)+1} in line."
+  puts "Welcome, #{name}. You are number #{array.index(name)+1} in line."
   end
